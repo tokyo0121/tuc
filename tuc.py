@@ -1,0 +1,2 @@
+#NaruIge
+print("hello")
