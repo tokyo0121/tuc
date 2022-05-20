@@ -32,7 +32,7 @@ click(submit)
 
 print('DONE!')
 
-time.sleep(10)
+time.sleep(5)
 
 driver.close()
 driver.quit()
