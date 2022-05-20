@@ -25,9 +25,9 @@ def click(x):
   driver.find_element_by_xpath(x).click()
 
 next_btn = '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div'
-submit = '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]'
-
 click(next_btn)
+
+submit = '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]'
 click(submit)
 
 print('DONE!')
